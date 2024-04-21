@@ -1,0 +1,119 @@
+/* livres.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./bb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .element {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .element-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .element-description {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .element-image {
+  .element-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  object-fit: cover; /* Ajoutez cette ligne */
+}
+  }
+  
+  .element-button {
+    display: inline-block;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    color: #333333;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .element-button:hover {
+    background-color: #f5f5f5;
+    box-shadow:5px 8px #ccc;
+color:#c2989d;
+  }
+  
+  form input[type='text'],
+  form button[type='submit'] {
+    margin-top: 10px;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+/* styles.css */
+
+.barre-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 100px; /* Ajustez la taille de l'image selon vos besoins */
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .menu-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu-item {
+    margin-right: 20px;
+  }
+  
+  .menu-item:last-child {
+    margin-right: 0;
+  }
+    
